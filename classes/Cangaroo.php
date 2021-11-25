@@ -10,15 +10,7 @@ class Cangaroo extends Animal
         $this->legs;
         $this->jumphigh;
     }
-
-
-public function getname() {
-    return $this->name;
-}
-public function getlegs() {
-    return $this->legs;   
-}
-public function getjumphigh() {
+ public function getjumphigh() {
     return $this->jumphigh;
 }
 }

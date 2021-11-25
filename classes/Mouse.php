@@ -10,4 +10,8 @@ public function __construct(string $name,int $legs,string $fur)
     $this->legs = $legs;
     $this->fur = $fur;
 }
+public function getFur()
+    {
+        return $this->fur;
+    }
 }

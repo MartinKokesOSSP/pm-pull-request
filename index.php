@@ -1,3 +1,9 @@
+<?php
+require_once "classes/Animal.php";
+require_once "classes/Cangaroo.php";
+
+$animals[] = new Cangaroo("Vagabund",2,"yes");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

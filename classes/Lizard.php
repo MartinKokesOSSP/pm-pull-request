@@ -1,17 +1,17 @@
 <?php 
  
-class ClassName extends Animal
+class Lizard extends Animal
 {
-    private bool $chameleon;
+    private bool $colorChange;
 
-    public function __construct(string $name, int $legs, bool $chameleon) {
+    public function __construct(string $name, int $legs, bool $colorChange) {
         $this->name = $name;
         $this->legs = $legs;
-        $this->chameleon = $chameleon;
+        $this->colorChange = $colorChange;
     }
 
     public function getCham()
     {
-        return $this->chameleon;
+        return $this->colorChange;
     }
 }

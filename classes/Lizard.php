@@ -1,5 +1,5 @@
 <?php 
-
+ 
 class ClassName extends Animal
 {
     private bool $chameleon;

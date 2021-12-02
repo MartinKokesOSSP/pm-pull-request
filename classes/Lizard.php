@@ -10,7 +10,7 @@ class Lizard extends Animal
         $this->colorChange = $colorChange;
     }
 
-    public function getCham()
+    public function getColorChange()
     {
         return $this->colorChange;
     }
